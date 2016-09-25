@@ -1,0 +1,38 @@
+#carrousel{
+  width : 1200px;
+  height : 900px;
+  position : relative;
+  margin : auto;
+}
+
+.slide{
+  position : absolute;
+  top : 0;
+  left : 0;
+  width : 1200px;
+  height : 900px;
+}
+
+#left, #right {
+  position : absolute;
+  background-color : rgba(195,195,195,0.6);
+  font-weight : bold;
+  font-size : 45px;
+  border-radius : 45px;
+}
+
+#left{
+  left : 25px;
+  top : 450px;
+  padding : 0px 15px 0px 10px;
+}
+
+#right{
+  left : 1095px;
+  top :450px;
+  padding : 0px 10px 0px 15px;
+}
+
+#left:hover, #right:hover {
+  background-color : rgba(195,195,195,0.9);
+}
